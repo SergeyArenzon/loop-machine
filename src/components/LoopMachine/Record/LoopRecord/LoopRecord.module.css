@@ -1,0 +1,29 @@
+.Icons {
+    /* display: flex;
+    justify-content: center;
+    width: 100%; */
+    /* border: 1px solid black; */
+}
+
+.Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 20px;
+    height: 50px;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.BtnsContainer {
+    padding-right: 10px;
+}
+
+.IconsContainer {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 30px;
+    align-items: center;
+    padding-left: 7px;
+}

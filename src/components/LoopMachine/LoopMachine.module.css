@@ -1,0 +1,60 @@
+.LoopMachine {
+    background-color: rgb(182, 182, 182);
+    display: inline-block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    /* padding: 0 20px; */
+    margin-bottom: 20px;
+}
+
+.LoopMachine .PadsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 20px 0;
+}
+
+.Btn {
+    border-radius: 10px !important;
+}
+
+.On {
+    background: green;
+    width: 100px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background 0.2s linear;
+    color: white;
+    font-weight: bold;
+}
+
+.Off {
+    background: red;
+    width: 100px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background 0.2s linear;
+    color: white;
+    font-weight: bold;
+}
+
+.Page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Record {
+    /* height: 70px;
+    width: 70px;
+    margin: auto;
+    background: red;
+    border-radius: 100px; */
+}

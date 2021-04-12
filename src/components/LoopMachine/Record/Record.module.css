@@ -1,0 +1,7 @@
+.Record {
+    width: 360px;
+    border-radius: 20px;
+    /* padding: 20px; */
+    box-shadow: 0px 0px 10px black;
+    background-color: rgb(182, 182, 182);
+}

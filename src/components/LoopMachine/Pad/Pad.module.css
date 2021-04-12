@@ -1,0 +1,56 @@
+.Pad {
+    border: 1px rgba(0, 0, 0, 0.452) solid;
+    height: 100px;
+    width: 100px;
+    background: rgb(6, 128, 160);
+    background: radial-gradient(
+        circle,
+        rgba(6, 128, 160, 1) 18%,
+        rgba(6, 68, 160, 1) 87%
+    );
+    border-radius: 30px;
+    transition: background 0.5s linear;
+}
+
+.Running {
+    background: rgb(49, 252, 49);
+    background: radial-gradient(
+        circle,
+        rgb(49, 252, 49) 18%,
+        rgb(6, 104, 35) 87%
+    );
+    transition: background 0.5s linear;
+}
+.Switcher {
+    vertical-align: center;
+}
+
+.SpinningIcon {
+    animation: spin 8s linear;
+}
+.Icon {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(30deg);
+        color: red;
+    }
+    50% {
+        transform: rotate(-30deg);
+        color: red;
+    }
+    100% {
+        transform: rotate(0);
+        color: red;
+    }
+}
+
+@media (max-width: 370px) {
+    .Pad {
+        height: 100px;
+        width: 90px;
+    }
+}
